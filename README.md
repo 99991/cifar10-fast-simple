@@ -52,11 +52,6 @@ epoch    batch    train time [sec]    validation accuracy
    10      970               86.81                 0.9428
 ```
 
-The total time includes:
-
-* Model creation and preprocessing (3 seconds)
-* Evaluating validation accuracy (9 seconds)
-
-Train time does not include preprocessing, evaluating validation accuracy or importing pytorch.
+Train time does not include preprocessing, evaluating validation accuracy or importing the pytorch library.
 
 The total time, i.e. what `time python3 train.py` would report, was 42.125 and 103.699 seconds respectively.
