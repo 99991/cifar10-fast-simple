@@ -71,10 +71,15 @@ def main():
     # Copy the model for validation
     valid_model = copy.deepcopy(train_model)
 
+    print(f"Preprocessing: {time.perf_counter() - start_time:.2f} seconds")
+
     # Train and validate
-    print("\nepoch    batch    total time [sec]    validation accuracy ")
+    print("\nepoch    batch    train time [sec]    validation accuracy ")
+    train_time = 0.0
     batch_count = 0
     for epoch in range(1, epochs + 1):
+        start_time = time.perf_counter()
+
         # Randomly shuffle training data
         indices = torch.randperm(len(train_data), device=device)
         data = train_data[indices]
@@ -122,6 +127,9 @@ def main():
             if (i // batch_size % ema_update_freq) == 0:
                 update_ema(train_model, valid_model, ema_rho)
 
+        # Add training time
+        train_time += time.perf_counter() - start_time
+
         valid_correct = []
         for i in range(0, len(valid_data), batch_size):
             valid_model.train(False)
@@ -144,9 +152,7 @@ def main():
         # Accuracy is average number of correct predictions
         valid_acc = torch.mean(torch.cat(valid_correct))
 
-        seconds = time.perf_counter() - start_time
-
-        print(f"{epoch:5} {batch_count:8d} {seconds:19.2f} {valid_acc:22.4f}")
+        print(f"{epoch:5} {batch_count:8d} {train_time:19.2f} {valid_acc:22.4f}")
 
 
 def preprocess_data(data, device, dtype):
