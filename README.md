@@ -1,4 +1,4 @@
-# cifar10-fast-simple
+# Description
 
 This project is a simplified version of David Page's amazing blog post [How to Train Your ResNet 8: Bag of Tricks](https://myrtle.ai/learn/how-to-train-your-resnet-8-bag-of-tricks/), where a modified ResNet is trained to reach 94% accuracy in 26 seconds on a V100 GPU.
 
@@ -27,6 +27,10 @@ epoch    batch    total time [sec]    validation accuracy
     9      873               37.72                 0.9395
    10      970               41.38                 0.9430
 ```
+
+### Epoch vs validation accuracy
+
+![epoch vs validation accuracy](https://raw.githubusercontent.com/99991/cifar10-fast-simple/main/doc/a100_epoch_vs_validation_error.png)
 
 * Timing results using a P100 GPU, which does not support half precision floating point.
 
