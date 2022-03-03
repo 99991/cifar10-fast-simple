@@ -55,3 +55,21 @@ epoch    batch    train time [sec]    validation accuracy
 Train time does not include preprocessing, evaluating validation accuracy or importing the pytorch library.
 
 The total time, i.e. what `time python3 train.py` would report, was 42.125 and 103.699 seconds respectively.
+
+* Timing results on a V100 GPU ([thanks to @ZipengFeng](https://github.com/99991/cifar10-fast-simple/issues/1#issuecomment-1057876448))
+
+```
+Preprocessing: 4.78 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                4.24                 0.2051
+    2      194                7.09                 0.7661
+    3      291                9.93                 0.8749
+    4      388               12.78                 0.8982
+    5      485               15.62                 0.9139
+    6      582               18.48                 0.9237
+    7      679               21.33                 0.9301
+    8      776               24.18                 0.9348
+    9      873               27.04                 0.9396
+   10      970               29.90                 0.9422
+```
