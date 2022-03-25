@@ -87,8 +87,8 @@ def main():
 
         # Crop random 32x32 patches from 40x40 training data
         data = [
-            random_crop(data[i : i + 512], crop_size=(32, 32))
-            for i in range(0, len(data), 512)
+            random_crop(data[i : i + batch_size], crop_size=(32, 32))
+            for i in range(0, len(data), batch_size)
         ]
         data = torch.cat(data)
 
