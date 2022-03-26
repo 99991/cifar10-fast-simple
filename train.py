@@ -3,10 +3,10 @@ import copy
 import torch
 import torch.nn as nn
 import torchvision
-from model import ResNetBagOfTricks, label_smoothing_loss, patch_whitening
+import model
 
 
-def main():
+def train(seed=0):
     # Configurable parameters
     epochs = 10
     batch_size = 512
@@ -27,11 +27,19 @@ def main():
 
     lr_schedule_bias = 64.0 * lr_schedule
 
+    # Print information about hardware on first run
+    if seed == 0:
+        if device.type == "cuda":
+            print("Device :", torch.cuda.get_device_name(device.index))
+
+        print("Dtype  :", dtype)
+        print()
+
     # Start measuring time
     start_time = time.perf_counter()
 
     # Set random seed to increase chance of reproducability
-    torch.manual_seed(0)
+    torch.manual_seed(seed)
 
     # Setting cudnn.benchmark to True hampers reproducability, but is faster
     torch.backends.cudnn.benchmark = True
@@ -40,10 +48,10 @@ def main():
     train_data, train_targets, valid_data, valid_targets = load_cifar10(device, dtype)
 
     # Compute special weights for first layer
-    weights = patch_whitening(train_data[:10000, :, 4:-4, 4:-4])
+    weights = model.patch_whitening(train_data[:10000, :, 4:-4, 4:-4])
 
     # Construct the neural network
-    train_model = ResNetBagOfTricks(weights, c_in=3, c_out=10, scale_out=0.125)
+    train_model = model.Model(weights, c_in=3, c_out=10, scale_out=0.125)
 
     # Convert model weights to half precision
     train_model.to(dtype)
@@ -74,7 +82,7 @@ def main():
     print(f"Preprocessing: {time.perf_counter() - start_time:.2f} seconds")
 
     # Train and validate
-    print("\nepoch    batch    train time [sec]    validation accuracy ")
+    print("\nepoch    batch    train time [sec]    validation accuracy")
     train_time = 0.0
     batch_count = 0
     for epoch in range(1, epochs + 1):
@@ -111,7 +119,7 @@ def main():
 
             logits = train_model(inputs)
 
-            loss = label_smoothing_loss(logits, target, alpha=0.2)
+            loss = model.label_smoothing_loss(logits, target, alpha=0.2)
 
             loss.sum().backward()
 
@@ -150,10 +158,11 @@ def main():
             valid_correct.append(correct.detach().type(torch.float64))
 
         # Accuracy is average number of correct predictions
-        valid_acc = torch.mean(torch.cat(valid_correct))
+        valid_acc = torch.mean(torch.cat(valid_correct)).item()
 
         print(f"{epoch:5} {batch_count:8d} {train_time:19.2f} {valid_acc:22.4f}")
 
+    return valid_acc
 
 def preprocess_data(data, device, dtype):
     # Convert to torch float16 tensor
@@ -215,6 +224,47 @@ def random_crop(data, crop_size):
     x = torch.randint(w - crop_w, size=(1,))[0]
     y = torch.randint(h - crop_h, size=(1,))[0]
     return data[:, :, y : y + crop_h, x : x + crop_w]
+
+
+def sha256(path):
+    import hashlib
+    with open(path, "rb") as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+
+def getrelpath(abspath):
+    import os
+    return os.path.relpath(abspath, os.getcwd())
+
+
+def print_info():
+    # Knowing this information might improve chance of reproducability
+    print("File   :", getrelpath(__file__), sha256(__file__))
+    print("Model  :", getrelpath(model.__file__), sha256(model.__file__))
+    print("PyTorch:", torch.__version__)
+
+
+def main():
+    print_info()
+
+    accuracies = []
+    threshold = 0.94
+    for run in range(100):
+        valid_acc = train(seed=run)
+        accuracies.append(valid_acc)
+
+        # Print accumulated results
+        within_threshold = sum(acc >= threshold for acc in accuracies)
+        acc = threshold * 100.0
+        print()
+        print(f"{within_threshold} of {run + 1} runs >= {acc} % accuracy")
+        mean = sum(accuracies) / len(accuracies)
+        variance = sum((acc - mean)**2 for acc in accuracies) / len(accuracies)
+        std = variance**0.5
+        print(f"Min  accuracy: {min(accuracies)}")
+        print(f"Max  accuracy: {max(accuracies)}")
+        print(f"Mean accuracy: {mean} +- {std}")
+        print()
 
 
 if __name__ == "__main__":

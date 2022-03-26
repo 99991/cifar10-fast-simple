@@ -137,3 +137,5 @@ class ResNetBagOfTricks(nn.Module):
         x = self.linear11(x)
         x = self.scale_out * x
         return x
+
+Model = ResNetBagOfTricks

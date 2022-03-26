@@ -1,0 +1,2006 @@
+File   : train.py 86f88a78d9ab160bcc35ec677f85faf945d1131a3ede2282ebc808596e250907
+Model  : model.py 0cf3352991a284cbf63f3f0e44c07fc3bffe61c9d720298ad8c18e57681b88c3
+PyTorch: 1.11.0+cu113
+Device : A100-SXM4-40GB
+Dtype  : torch.float16
+
+Files already downloaded and verified
+Preprocessing: 4.15 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                2.59                 0.2200
+    2      194                3.99                 0.7673
+    3      291                5.38                 0.8711
+    4      388                6.78                 0.8979
+    5      485                8.17                 0.9107
+    6      582                9.57                 0.9170
+    7      679               10.96                 0.9266
+    8      776               12.36                 0.9331
+    9      873               13.75                 0.9368
+   10      970               15.15                 0.9404
+
+1 of 1 runs >= 94.0 % accuracy
+Min  accuracy: 0.9404
+Max  accuracy: 0.9404
+Mean accuracy: 0.9404 +- 0.0
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1750
+    2      194                2.79                 0.7731
+    3      291                4.19                 0.8747
+    4      388                5.58                 0.8983
+    5      485                6.98                 0.9131
+    6      582                8.37                 0.9201
+    7      679                9.77                 0.9289
+    8      776               11.16                 0.9351
+    9      873               12.56                 0.9390
+   10      970               13.96                 0.9399
+
+1 of 2 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9404
+Mean accuracy: 0.94015 +- 0.00024999999999997247
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1826
+    2      194                2.79                 0.7749
+    3      291                4.19                 0.8765
+    4      388                5.58                 0.8994
+    5      485                6.98                 0.9108
+    6      582                8.37                 0.9192
+    7      679                9.77                 0.9280
+    8      776               11.16                 0.9334
+    9      873               12.56                 0.9386
+   10      970               13.95                 0.9417
+
+2 of 3 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.9406666666666667 +- 0.0007586537784494201
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1823
+    2      194                2.79                 0.7603
+    3      291                4.19                 0.8788
+    4      388                5.58                 0.8995
+    5      485                6.98                 0.9131
+    6      582                8.37                 0.9219
+    7      679                9.77                 0.9288
+    8      776               11.17                 0.9332
+    9      873               12.56                 0.9373
+   10      970               13.96                 0.9417
+
+3 of 4 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.940925 +- 0.000794905654779253
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1855
+    2      194                2.79                 0.7723
+    3      291                4.19                 0.8809
+    4      388                5.58                 0.8989
+    5      485                6.98                 0.9124
+    6      582                8.37                 0.9221
+    7      679                9.77                 0.9278
+    8      776               11.17                 0.9340
+    9      873               12.56                 0.9373
+   10      970               13.96                 0.9406
+
+4 of 5 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.94086 +- 0.0007227724399837298
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2350
+    2      194                2.79                 0.7790
+    3      291                4.19                 0.8760
+    4      388                5.58                 0.9009
+    5      485                6.98                 0.9133
+    6      582                8.37                 0.9229
+    7      679                9.77                 0.9301
+    8      776               11.16                 0.9367
+    9      873               12.56                 0.9399
+   10      970               13.95                 0.9415
+
+5 of 6 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.9409666666666666 +- 0.000701585505994987
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1847
+    2      194                2.79                 0.7648
+    3      291                4.19                 0.8751
+    4      388                5.58                 0.8963
+    5      485                6.98                 0.9097
+    6      582                8.37                 0.9185
+    7      679                9.77                 0.9262
+    8      776               11.16                 0.9317
+    9      873               12.56                 0.9378
+   10      970               13.96                 0.9402
+
+6 of 7 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.9408571428571427 +- 0.0007027642214999471
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1709
+    2      194                2.79                 0.7574
+    3      291                4.19                 0.8743
+    4      388                5.58                 0.9000
+    5      485                6.98                 0.9133
+    6      582                8.37                 0.9208
+    7      679                9.77                 0.9288
+    8      776               11.16                 0.9339
+    9      873               12.56                 0.9379
+   10      970               13.95                 0.9401
+
+7 of 8 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.9407625 +- 0.0007034513131695864
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2391
+    2      194                2.79                 0.7724
+    3      291                4.19                 0.8747
+    4      388                5.58                 0.8976
+    5      485                6.98                 0.9073
+    6      582                8.37                 0.9189
+    7      679                9.77                 0.9273
+    8      776               11.16                 0.9321
+    9      873               12.56                 0.9378
+   10      970               13.95                 0.9400
+
+8 of 9 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.9406777777777777 +- 0.0007051836290054496
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2016
+    2      194                2.79                 0.7633
+    3      291                4.19                 0.8720
+    4      388                5.58                 0.8971
+    5      485                6.98                 0.9122
+    6      582                8.37                 0.9195
+    7      679                9.77                 0.9273
+    8      776               11.16                 0.9318
+    9      873               12.56                 0.9376
+   10      970               13.95                 0.9414
+
+9 of 10 runs >= 94.0 % accuracy
+Min  accuracy: 0.9399000000000001
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.9407499999999999 +- 0.0007032069396699712
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1618
+    2      194                2.79                 0.7815
+    3      291                4.19                 0.8726
+    4      388                5.58                 0.8981
+    5      485                6.98                 0.9126
+    6      582                8.37                 0.9182
+    7      679                9.77                 0.9271
+    8      776               11.16                 0.9331
+    9      873               12.56                 0.9367
+   10      970               13.96                 0.9393
+
+9 of 11 runs >= 94.0 % accuracy
+Min  accuracy: 0.9393
+Max  accuracy: 0.9417000000000001
+Mean accuracy: 0.9406181818181817 +- 0.0007894971723343771
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1863
+    2      194                2.79                 0.7682
+    3      291                4.19                 0.8746
+    4      388                5.58                 0.8963
+    5      485                6.98                 0.9096
+    6      582                8.37                 0.9203
+    7      679                9.77                 0.9262
+    8      776               11.16                 0.9339
+    9      873               12.56                 0.9392
+   10      970               13.96                 0.9424
+
+10 of 12 runs >= 94.0 % accuracy
+Min  accuracy: 0.9393
+Max  accuracy: 0.9424
+Mean accuracy: 0.9407666666666664 +- 0.000902157906848292
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2488
+    2      194                2.79                 0.7649
+    3      291                4.19                 0.8752
+    4      388                5.58                 0.8987
+    5      485                6.98                 0.9114
+    6      582                8.37                 0.9201
+    7      679                9.77                 0.9285
+    8      776               11.17                 0.9343
+    9      873               12.56                 0.9371
+   10      970               13.96                 0.9400
+
+11 of 13 runs >= 94.0 % accuracy
+Min  accuracy: 0.9393
+Max  accuracy: 0.9424
+Mean accuracy: 0.940707692307692 +- 0.0008905154414603322
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1639
+    2      194                2.79                 0.7551
+    3      291                4.19                 0.8769
+    4      388                5.58                 0.8994
+    5      485                6.98                 0.9134
+    6      582                8.37                 0.9239
+    7      679                9.77                 0.9295
+    8      776               11.16                 0.9362
+    9      873               12.56                 0.9427
+   10      970               13.95                 0.9437
+
+12 of 14 runs >= 94.0 % accuracy
+Min  accuracy: 0.9393
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9409214285714284 +- 0.001153366854925543
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1894
+    2      194                2.79                 0.7581
+    3      291                4.19                 0.8751
+    4      388                5.58                 0.8988
+    5      485                6.98                 0.9123
+    6      582                8.37                 0.9181
+    7      679                9.77                 0.9268
+    8      776               11.16                 0.9326
+    9      873               12.56                 0.9372
+   10      970               13.96                 0.9401
+
+13 of 15 runs >= 94.0 % accuracy
+Min  accuracy: 0.9393
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9408666666666664 +- 0.0011329411085999024
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.39                 0.1954
+    2      194                2.79                 0.7762
+    3      291                4.19                 0.8809
+    4      388                5.58                 0.9007
+    5      485                6.98                 0.9116
+    6      582                8.37                 0.9191
+    7      679                9.77                 0.9281
+    8      776               11.16                 0.9331
+    9      873               12.56                 0.9382
+   10      970               13.95                 0.9399
+
+13 of 16 runs >= 94.0 % accuracy
+Min  accuracy: 0.9393
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9408062499999997 +- 0.0011216443007923751
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1811
+    2      194                2.79                 0.7517
+    3      291                4.19                 0.8720
+    4      388                5.58                 0.8982
+    5      485                6.98                 0.9123
+    6      582                8.37                 0.9206
+    7      679                9.77                 0.9275
+    8      776               11.16                 0.9339
+    9      873               12.56                 0.9369
+   10      970               13.95                 0.9386
+
+13 of 17 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.940676470588235 +- 0.001205638425831252
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2231
+    2      194                2.79                 0.7598
+    3      291                4.19                 0.8750
+    4      388                5.58                 0.8980
+    5      485                6.98                 0.9117
+    6      582                8.37                 0.9219
+    7      679                9.77                 0.9281
+    8      776               11.16                 0.9345
+    9      873               12.56                 0.9390
+   10      970               13.96                 0.9400
+
+14 of 18 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9406388888888887 +- 0.0011818718152381616
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1511
+    2      194                2.79                 0.7385
+    3      291                4.19                 0.8708
+    4      388                5.58                 0.8956
+    5      485                6.98                 0.9111
+    6      582                8.37                 0.9205
+    7      679                9.77                 0.9294
+    8      776               11.17                 0.9353
+    9      873               12.56                 0.9393
+   10      970               13.96                 0.9429
+
+15 of 19 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.940757894736842 +- 0.0012562751079339411
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1677
+    2      194                2.79                 0.7383
+    3      291                4.19                 0.8695
+    4      388                5.58                 0.8973
+    5      485                6.98                 0.9098
+    6      582                8.37                 0.9175
+    7      679                9.77                 0.9266
+    8      776               11.16                 0.9333
+    9      873               12.56                 0.9389
+   10      970               13.95                 0.9418
+
+16 of 20 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9408099999999999 +- 0.0012453513560437605
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2051
+    2      194                2.79                 0.7653
+    3      291                4.19                 0.8757
+    4      388                5.58                 0.9009
+    5      485                6.98                 0.9141
+    6      582                8.37                 0.9214
+    7      679                9.77                 0.9283
+    8      776               11.16                 0.9339
+    9      873               12.56                 0.9407
+   10      970               13.95                 0.9419
+
+17 of 21 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9408619047619047 +- 0.0012373074416714115
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2169
+    2      194                2.79                 0.7749
+    3      291                4.19                 0.8800
+    4      388                5.58                 0.8976
+    5      485                6.98                 0.9109
+    6      582                8.37                 0.9191
+    7      679                9.77                 0.9282
+    8      776               11.16                 0.9330
+    9      873               12.56                 0.9379
+   10      970               13.96                 0.9408
+
+18 of 22 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9408590909090908 +- 0.0012089285605290504
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1385
+    2      194                2.79                 0.7481
+    3      291                4.19                 0.8719
+    4      388                5.58                 0.8993
+    5      485                6.98                 0.9103
+    6      582                8.37                 0.9226
+    7      679                9.77                 0.9296
+    8      776               11.16                 0.9358
+    9      873               12.56                 0.9399
+   10      970               13.95                 0.9421
+
+19 of 23 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9409130434782608 +- 0.0012091334834162717
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.39                 0.1937
+    2      194                2.79                 0.7671
+    3      291                4.19                 0.8770
+    4      388                5.58                 0.8984
+    5      485                6.98                 0.9132
+    6      582                8.37                 0.9207
+    7      679                9.77                 0.9302
+    8      776               11.17                 0.9339
+    9      873               12.56                 0.9376
+   10      970               13.96                 0.9388
+
+19 of 24 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9408249999999999 +- 0.0012567318727556903
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1742
+    2      194                2.79                 0.7835
+    3      291                4.19                 0.8715
+    4      388                5.58                 0.9001
+    5      485                6.98                 0.9076
+    6      582                8.37                 0.9186
+    7      679                9.77                 0.9259
+    8      776               11.17                 0.9344
+    9      873               12.56                 0.9387
+   10      970               13.96                 0.9422
+
+20 of 25 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9408799999999999 +- 0.0012604761005271072
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.39                 0.1694
+    2      194                2.79                 0.7748
+    3      291                4.19                 0.8763
+    4      388                5.58                 0.8980
+    5      485                6.98                 0.9105
+    6      582                8.37                 0.9214
+    7      679                9.77                 0.9286
+    8      776               11.17                 0.9353
+    9      873               12.56                 0.9401
+   10      970               13.96                 0.9432
+
+21 of 26 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9409692307692308 +- 0.0013140569097760556
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2075
+    2      194                2.79                 0.7711
+    3      291                4.19                 0.8775
+    4      388                5.58                 0.9025
+    5      485                6.98                 0.9130
+    6      582                8.37                 0.9185
+    7      679                9.77                 0.9285
+    8      776               11.16                 0.9347
+    9      873               12.56                 0.9377
+   10      970               13.96                 0.9400
+
+22 of 27 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9409333333333334 +- 0.001302419401074905
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1658
+    2      194                2.79                 0.7553
+    3      291                4.19                 0.8735
+    4      388                5.58                 0.8976
+    5      485                6.98                 0.9133
+    6      582                8.37                 0.9219
+    7      679                9.77                 0.9284
+    8      776               11.16                 0.9345
+    9      873               12.56                 0.9379
+   10      970               13.96                 0.9405
+
+23 of 28 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9409178571428571 +- 0.0012814761497776687
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1990
+    2      194                2.79                 0.7628
+    3      291                4.19                 0.8770
+    4      388                5.58                 0.8993
+    5      485                6.98                 0.9130
+    6      582                8.37                 0.9223
+    7      679                9.77                 0.9284
+    8      776               11.17                 0.9336
+    9      873               12.56                 0.9385
+   10      970               13.96                 0.9424
+
+24 of 29 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9437000000000001
+Mean accuracy: 0.9409689655172414 +- 0.001287902183123281
+
+Files already downloaded and verified
+Preprocessing: 1.09 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1776
+    2      194                2.79                 0.7540
+    3      291                4.19                 0.8721
+    4      388                5.58                 0.8991
+    5      485                6.98                 0.9127
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9278
+    8      776               11.16                 0.9356
+    9      873               12.56                 0.9391
+   10      970               13.95                 0.9438
+
+25 of 30 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410633333333334 +- 0.0013644249908131912
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1706
+    2      194                2.79                 0.7568
+    3      291                4.19                 0.8783
+    4      388                5.58                 0.9007
+    5      485                6.98                 0.9121
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9264
+    8      776               11.16                 0.9336
+    9      873               12.56                 0.9386
+   10      970               13.96                 0.9402
+
+26 of 31 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410354838709678 +- 0.0013508774656345519
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1975
+    2      194                2.79                 0.7504
+    3      291                4.19                 0.8703
+    4      388                5.58                 0.8995
+    5      485                6.98                 0.9133
+    6      582                8.37                 0.9207
+    7      679                9.77                 0.9271
+    8      776               11.16                 0.9335
+    9      873               12.56                 0.9376
+   10      970               13.95                 0.9404
+
+27 of 32 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.941015625 +- 0.0013341920249255808
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2214
+    2      194                2.79                 0.7783
+    3      291                4.19                 0.8785
+    4      388                5.58                 0.9015
+    5      485                6.98                 0.9117
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9281
+    8      776               11.17                 0.9332
+    9      873               12.56                 0.9373
+   10      970               13.96                 0.9387
+
+27 of 33 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409454545454546 +- 0.001372476396902734
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1526
+    2      194                2.79                 0.7857
+    3      291                4.19                 0.8825
+    4      388                5.58                 0.9006
+    5      485                6.98                 0.9116
+    6      582                8.37                 0.9216
+    7      679                9.77                 0.9292
+    8      776               11.17                 0.9344
+    9      873               12.56                 0.9377
+   10      970               13.96                 0.9409
+
+28 of 34 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409441176470589 +- 0.001352164099088963
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1339
+    2      194                2.79                 0.7638
+    3      291                4.19                 0.8749
+    4      388                5.58                 0.8977
+    5      485                6.98                 0.9115
+    6      582                8.37                 0.9203
+    7      679                9.77                 0.9270
+    8      776               11.17                 0.9335
+    9      873               12.56                 0.9372
+   10      970               13.96                 0.9387
+
+28 of 35 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9408799999999999 +- 0.0013841552348944548
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1608
+    2      194                2.79                 0.7766
+    3      291                4.19                 0.8748
+    4      388                5.58                 0.8990
+    5      485                6.98                 0.9151
+    6      582                8.37                 0.9228
+    7      679                9.77                 0.9298
+    8      776               11.16                 0.9352
+    9      873               12.56                 0.9407
+   10      970               13.95                 0.9431
+
+29 of 36 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409416666666667 +- 0.0014127150770374389
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1548
+    2      194                2.79                 0.7627
+    3      291                4.19                 0.8766
+    4      388                5.58                 0.8994
+    5      485                6.98                 0.9129
+    6      582                8.37                 0.9186
+    7      679                9.77                 0.9283
+    8      776               11.17                 0.9340
+    9      873               12.56                 0.9376
+   10      970               13.96                 0.9406
+
+30 of 37 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409324324324325 +- 0.0013945945945945983
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.39                 0.1331
+    2      194                2.79                 0.7475
+    3      291                4.18                 0.8756
+    4      388                5.58                 0.8987
+    5      485                6.97                 0.9111
+    6      582                8.37                 0.9212
+    7      679                9.76                 0.9299
+    8      776               11.16                 0.9353
+    9      873               12.55                 0.9381
+   10      970               13.95                 0.9400
+
+31 of 38 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409078947368421 +- 0.0013841930156987322
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1920
+    2      194                2.79                 0.7703
+    3      291                4.19                 0.8717
+    4      388                5.58                 0.8999
+    5      485                6.98                 0.9127
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9291
+    8      776               11.16                 0.9335
+    9      873               12.56                 0.9372
+   10      970               13.95                 0.9409
+
+32 of 39 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409076923076923 +- 0.001366332282179358
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2233
+    2      194                2.79                 0.7744
+    3      291                4.19                 0.8774
+    4      388                5.58                 0.9004
+    5      485                6.98                 0.9103
+    6      582                8.37                 0.9180
+    7      679                9.77                 0.9274
+    8      776               11.16                 0.9324
+    9      873               12.56                 0.9362
+   10      970               13.95                 0.9401
+
+33 of 40 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9408875 +- 0.0013550253687662117
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1517
+    2      194                2.79                 0.7652
+    3      291                4.19                 0.8746
+    4      388                5.58                 0.9017
+    5      485                6.98                 0.9127
+    6      582                8.37                 0.9223
+    7      679                9.77                 0.9287
+    8      776               11.16                 0.9352
+    9      873               12.56                 0.9385
+   10      970               13.95                 0.9417
+
+34 of 41 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409073170731707 +- 0.0013442543030141032
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1398
+    2      194                2.79                 0.7663
+    3      291                4.19                 0.8771
+    4      388                5.58                 0.9026
+    5      485                6.98                 0.9138
+    6      582                8.37                 0.9227
+    7      679                9.77                 0.9285
+    8      776               11.17                 0.9327
+    9      873               12.56                 0.9382
+   10      970               13.96                 0.9410
+
+35 of 42 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409095238095239 +- 0.0013282300295272198
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1710
+    2      194                2.79                 0.7369
+    3      291                4.19                 0.8745
+    4      388                5.58                 0.8990
+    5      485                6.98                 0.9128
+    6      582                8.37                 0.9217
+    7      679                9.77                 0.9298
+    8      776               11.17                 0.9341
+    9      873               12.56                 0.9372
+   10      970               13.96                 0.9415
+
+36 of 43 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409232558139534 +- 0.0013157078224644379
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.39                 0.1305
+    2      194                2.79                 0.7610
+    3      291                4.18                 0.8699
+    4      388                5.58                 0.9012
+    5      485                6.97                 0.9139
+    6      582                8.37                 0.9224
+    7      679                9.76                 0.9303
+    8      776               11.16                 0.9345
+    9      873               12.55                 0.9401
+   10      970               13.95                 0.9424
+
+37 of 44 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409568181818181 +- 0.0013191591204718153
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1573
+    2      194                2.79                 0.7738
+    3      291                4.19                 0.8788
+    4      388                5.58                 0.8990
+    5      485                6.98                 0.9100
+    6      582                8.37                 0.9157
+    7      679                9.77                 0.9245
+    8      776               11.16                 0.9314
+    9      873               12.56                 0.9369
+   10      970               13.95                 0.9404
+
+38 of 45 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409444444444444 +- 0.0013069992018284683
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1518
+    2      194                2.79                 0.7656
+    3      291                4.19                 0.8689
+    4      388                5.58                 0.8969
+    5      485                6.98                 0.9113
+    6      582                8.37                 0.9207
+    7      679                9.77                 0.9282
+    8      776               11.16                 0.9349
+    9      873               12.56                 0.9388
+   10      970               13.95                 0.9423
+
+39 of 46 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409739130434782 +- 0.0013077419607540432
+
+Files already downloaded and verified
+Preprocessing: 1.05 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1756
+    2      194                2.79                 0.7715
+    3      291                4.19                 0.8784
+    4      388                5.58                 0.8988
+    5      485                6.98                 0.9130
+    6      582                8.37                 0.9207
+    7      679                9.77                 0.9282
+    8      776               11.16                 0.9339
+    9      873               12.56                 0.9380
+   10      970               13.96                 0.9420
+
+40 of 47 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.940995744680851 +- 0.0013022006654544492
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1981
+    2      194                2.79                 0.7759
+    3      291                4.19                 0.8776
+    4      388                5.58                 0.8999
+    5      485                6.98                 0.9135
+    6      582                8.37                 0.9210
+    7      679                9.77                 0.9299
+    8      776               11.16                 0.9345
+    9      873               12.56                 0.9395
+   10      970               13.96                 0.9415
+
+41 of 48 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410062499999999 +- 0.001290575816254126
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1363
+    2      194                2.79                 0.7775
+    3      291                4.19                 0.8744
+    4      388                5.58                 0.8985
+    5      485                6.98                 0.9094
+    6      582                8.37                 0.9211
+    7      679                9.77                 0.9283
+    8      776               11.17                 0.9341
+    9      873               12.56                 0.9398
+   10      970               13.96                 0.9426
+
+42 of 49 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.941038775510204 +- 0.0012970636109415849
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2250
+    2      194                2.79                 0.7678
+    3      291                4.19                 0.8731
+    4      388                5.58                 0.9009
+    5      485                6.98                 0.9141
+    6      582                8.37                 0.9226
+    7      679                9.77                 0.9290
+    8      776               11.17                 0.9354
+    9      873               12.56                 0.9384
+   10      970               13.96                 0.9398
+
+42 of 50 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410139999999998 +- 0.0012956866905236
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1939
+    2      194                2.79                 0.7838
+    3      291                4.19                 0.8782
+    4      388                5.58                 0.9011
+    5      485                6.98                 0.9123
+    6      582                8.37                 0.9210
+    7      679                9.77                 0.9266
+    8      776               11.17                 0.9322
+    9      873               12.56                 0.9383
+   10      970               13.96                 0.9413
+
+43 of 51 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410196078431371 +- 0.0012835336652158391
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2084
+    2      194                2.79                 0.7610
+    3      291                4.19                 0.8758
+    4      388                5.58                 0.8994
+    5      485                6.98                 0.9115
+    6      582                8.37                 0.9219
+    7      679                9.77                 0.9290
+    8      776               11.16                 0.9323
+    9      873               12.56                 0.9375
+   10      970               13.95                 0.9402
+
+44 of 52 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410038461538459 +- 0.00127610608711115
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1918
+    2      194                2.79                 0.7624
+    3      291                4.19                 0.8777
+    4      388                5.58                 0.8997
+    5      485                6.98                 0.9119
+    6      582                8.37                 0.9217
+    7      679                9.77                 0.9295
+    8      776               11.16                 0.9339
+    9      873               12.56                 0.9382
+   10      970               13.95                 0.9391
+
+44 of 53 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409679245283017 +- 0.0012902791251194902
+
+Files already downloaded and verified
+Preprocessing: 1.08 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2120
+    2      194                2.79                 0.7683
+    3      291                4.19                 0.8776
+    4      388                5.58                 0.8995
+    5      485                6.98                 0.9099
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9284
+    8      776               11.16                 0.9339
+    9      873               12.56                 0.9380
+   10      970               13.96                 0.9414
+
+45 of 54 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409759259259258 +- 0.001279602829756342
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1534
+    2      194                2.79                 0.7741
+    3      291                4.19                 0.8761
+    4      388                5.58                 0.8978
+    5      485                6.98                 0.9095
+    6      582                8.37                 0.9205
+    7      679                9.77                 0.9260
+    8      776               11.16                 0.9334
+    9      873               12.56                 0.9379
+   10      970               13.95                 0.9407
+
+46 of 55 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.940970909090909 +- 0.0012684525615199195
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1579
+    2      194                2.79                 0.7788
+    3      291                4.19                 0.8765
+    4      388                5.58                 0.8975
+    5      485                6.98                 0.9115
+    6      582                8.37                 0.9200
+    7      679                9.77                 0.9275
+    8      776               11.16                 0.9358
+    9      873               12.56                 0.9399
+   10      970               13.95                 0.9412
+
+47 of 56 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409749999999999 +- 0.0012574421315852723
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1582
+    2      194                2.79                 0.7814
+    3      291                4.19                 0.8789
+    4      388                5.58                 0.8995
+    5      485                6.98                 0.9148
+    6      582                8.37                 0.9203
+    7      679                9.77                 0.9287
+    8      776               11.17                 0.9341
+    9      873               12.56                 0.9384
+   10      970               13.96                 0.9397
+
+47 of 57 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409526315789473 +- 0.0012575533560105088
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1567
+    2      194                2.79                 0.7726
+    3      291                4.19                 0.8755
+    4      388                5.58                 0.9026
+    5      485                6.98                 0.9118
+    6      582                8.37                 0.9182
+    7      679                9.77                 0.9266
+    8      776               11.17                 0.9323
+    9      873               12.56                 0.9373
+   10      970               13.96                 0.9409
+
+48 of 58 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409517241379309 +- 0.0012466840679496254
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2288
+    2      194                2.79                 0.7648
+    3      291                4.19                 0.8718
+    4      388                5.58                 0.8973
+    5      485                6.98                 0.9102
+    6      582                8.38                 0.9193
+    7      679                9.77                 0.9270
+    8      776               11.17                 0.9327
+    9      873               12.56                 0.9372
+   10      970               13.96                 0.9416
+
+49 of 59 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409627118644067 +- 0.0012389030556846066
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1764
+    2      194                2.79                 0.7733
+    3      291                4.19                 0.8805
+    4      388                5.58                 0.8990
+    5      485                6.98                 0.9105
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9280
+    8      776               11.17                 0.9341
+    9      873               12.56                 0.9378
+   10      970               13.96                 0.9408
+
+50 of 60 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.94096 +- 0.0012287120628256764
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2281
+    2      194                2.79                 0.7761
+    3      291                4.19                 0.8799
+    4      388                5.58                 0.8993
+    5      485                6.98                 0.9090
+    6      582                8.37                 0.9209
+    7      679                9.77                 0.9291
+    8      776               11.16                 0.9350
+    9      873               12.56                 0.9379
+   10      970               13.96                 0.9404
+
+51 of 61 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409508196721311 +- 0.0012206720737954772
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1591
+    2      194                2.79                 0.7880
+    3      291                4.19                 0.8783
+    4      388                5.58                 0.8986
+    5      485                6.98                 0.9093
+    6      582                8.37                 0.9216
+    7      679                9.77                 0.9277
+    8      776               11.16                 0.9344
+    9      873               12.56                 0.9398
+   10      970               13.96                 0.9438
+
+52 of 62 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409967741935483 +- 0.0012628651170454254
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2074
+    2      194                2.79                 0.7707
+    3      291                4.19                 0.8757
+    4      388                5.58                 0.8971
+    5      485                6.98                 0.9089
+    6      582                8.37                 0.9189
+    7      679                9.77                 0.9280
+    8      776               11.16                 0.9325
+    9      873               12.56                 0.9373
+   10      970               13.95                 0.9411
+
+53 of 63 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409984126984127 +- 0.0012528687162493164
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2003
+    2      194                2.79                 0.7585
+    3      291                4.19                 0.8755
+    4      388                5.58                 0.9012
+    5      485                6.98                 0.9132
+    6      582                8.37                 0.9218
+    7      679                9.77                 0.9283
+    8      776               11.16                 0.9340
+    9      873               12.56                 0.9391
+   10      970               13.96                 0.9406
+
+54 of 64 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409921875 +- 0.0012440237999506885
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1777
+    2      194                2.79                 0.7455
+    3      291                4.19                 0.8687
+    4      388                5.58                 0.8964
+    5      485                6.98                 0.9086
+    6      582                8.37                 0.9202
+    7      679                9.77                 0.9305
+    8      776               11.16                 0.9350
+    9      873               12.56                 0.9387
+   10      970               13.95                 0.9414
+
+55 of 65 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409984615384616 +- 0.0012354373013001455
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1714
+    2      194                2.79                 0.7786
+    3      291                4.19                 0.8730
+    4      388                5.58                 0.9006
+    5      485                6.98                 0.9120
+    6      582                8.37                 0.9218
+    7      679                9.77                 0.9298
+    8      776               11.16                 0.9357
+    9      873               12.56                 0.9399
+   10      970               13.95                 0.9408
+
+56 of 66 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409954545454546 +- 0.0012262818671214433
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1950
+    2      194                2.79                 0.7619
+    3      291                4.19                 0.8790
+    4      388                5.58                 0.8987
+    5      485                6.98                 0.9116
+    6      582                8.37                 0.9226
+    7      679                9.77                 0.9288
+    8      776               11.16                 0.9352
+    9      873               12.56                 0.9395
+   10      970               13.96                 0.9415
+
+57 of 67 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410029850746269 +- 0.0012186327240785646
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.39                 0.1849
+    2      194                2.79                 0.7589
+    3      291                4.18                 0.8778
+    4      388                5.58                 0.8996
+    5      485                6.97                 0.9118
+    6      582                8.37                 0.9210
+    7      679                9.76                 0.9282
+    8      776               11.16                 0.9347
+    9      873               12.56                 0.9400
+   10      970               13.95                 0.9419
+
+58 of 68 runs >= 94.0 % accuracy
+Min  accuracy: 0.9386
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410161764705882 +- 0.0012144485911815442
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1663
+    2      194                2.79                 0.7818
+    3      291                4.19                 0.8776
+    4      388                5.58                 0.8995
+    5      485                6.98                 0.9130
+    6      582                8.38                 0.9203
+    7      679                9.77                 0.9278
+    8      776               11.17                 0.9325
+    9      873               12.56                 0.9367
+   10      970               13.96                 0.9380
+
+58 of 69 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409724637681158 +- 0.0012583499729742719
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1706
+    2      194                2.79                 0.7743
+    3      291                4.19                 0.8780
+    4      388                5.58                 0.8990
+    5      485                6.98                 0.9110
+    6      582                8.37                 0.9216
+    7      679                9.77                 0.9284
+    8      776               11.16                 0.9355
+    9      873               12.56                 0.9381
+   10      970               13.96                 0.9403
+
+59 of 70 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.940962857142857 +- 0.0012518753279519065
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1936
+    2      194                2.79                 0.7535
+    3      291                4.19                 0.8758
+    4      388                5.58                 0.8978
+    5      485                6.98                 0.9110
+    6      582                8.37                 0.9195
+    7      679                9.77                 0.9275
+    8      776               11.16                 0.9349
+    9      873               12.56                 0.9395
+   10      970               13.95                 0.9408
+
+60 of 71 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409605633802814 +- 0.0012431761767932648
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2558
+    2      194                2.79                 0.7785
+    3      291                4.19                 0.8749
+    4      388                5.58                 0.9016
+    5      485                6.98                 0.9118
+    6      582                8.37                 0.9228
+    7      679                9.77                 0.9280
+    8      776               11.16                 0.9330
+    9      873               12.56                 0.9382
+   10      970               13.95                 0.9420
+
+61 of 72 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409749999999997 +- 0.0012404916140161704
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.39                 0.2024
+    2      194                2.79                 0.7858
+    3      291                4.19                 0.8788
+    4      388                5.58                 0.8996
+    5      485                6.98                 0.9103
+    6      582                8.37                 0.9211
+    7      679                9.77                 0.9271
+    8      776               11.16                 0.9324
+    9      873               12.56                 0.9382
+   10      970               13.95                 0.9415
+
+62 of 73 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409821917808217 +- 0.0012334762621337761
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1816
+    2      194                2.79                 0.7755
+    3      291                4.19                 0.8742
+    4      388                5.58                 0.8991
+    5      485                6.98                 0.9107
+    6      582                8.37                 0.9207
+    7      679                9.77                 0.9287
+    8      776               11.16                 0.9351
+    9      873               12.56                 0.9388
+   10      970               13.96                 0.9408
+
+63 of 74 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409797297297294 +- 0.001225294198509046
+
+Files already downloaded and verified
+Preprocessing: 1.08 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2062
+    2      194                2.79                 0.7855
+    3      291                4.19                 0.8772
+    4      388                5.58                 0.8995
+    5      485                6.98                 0.9118
+    6      582                8.37                 0.9197
+    7      679                9.77                 0.9270
+    8      776               11.16                 0.9324
+    9      873               12.56                 0.9362
+   10      970               13.96                 0.9394
+
+63 of 75 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409586666666665 +- 0.00123051136614914
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1848
+    2      194                2.79                 0.7730
+    3      291                4.19                 0.8757
+    4      388                5.58                 0.8957
+    5      485                6.98                 0.9118
+    6      582                8.37                 0.9203
+    7      679                9.77                 0.9267
+    8      776               11.16                 0.9350
+    9      873               12.56                 0.9383
+   10      970               13.96                 0.9409
+
+64 of 76 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409578947368419 +- 0.0012224073700666859
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1839
+    2      194                2.79                 0.7664
+    3      291                4.19                 0.8727
+    4      388                5.58                 0.8976
+    5      485                6.98                 0.9112
+    6      582                8.37                 0.9210
+    7      679                9.77                 0.9275
+    8      776               11.16                 0.9340
+    9      873               12.56                 0.9384
+   10      970               13.95                 0.9409
+
+65 of 77 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409571428571426 +- 0.0012144614082215085
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2224
+    2      194                2.79                 0.7789
+    3      291                4.19                 0.8746
+    4      388                5.58                 0.9005
+    5      485                6.98                 0.9117
+    6      582                8.37                 0.9220
+    7      679                9.77                 0.9293
+    8      776               11.17                 0.9324
+    9      873               12.56                 0.9396
+   10      970               13.96                 0.9413
+
+66 of 78 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409615384615382 +- 0.0012072676045655868
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1626
+    2      194                2.79                 0.7808
+    3      291                4.19                 0.8801
+    4      388                5.58                 0.9013
+    5      485                6.98                 0.9120
+    6      582                8.37                 0.9210
+    7      679                9.77                 0.9273
+    8      776               11.16                 0.9309
+    9      873               12.56                 0.9373
+   10      970               13.95                 0.9395
+
+66 of 79 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409430379746833 +- 0.0012106785987387404
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1603
+    2      194                2.79                 0.7822
+    3      291                4.19                 0.8754
+    4      388                5.58                 0.8994
+    5      485                6.98                 0.9122
+    6      582                8.37                 0.9206
+    7      679                9.77                 0.9268
+    8      776               11.16                 0.9343
+    9      873               12.56                 0.9391
+   10      970               13.95                 0.9427
+
+67 of 80 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409649999999997 +- 0.0012188211517692017
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1789
+    2      194                2.79                 0.7684
+    3      291                4.19                 0.8763
+    4      388                5.58                 0.9000
+    5      485                6.98                 0.9121
+    6      582                8.37                 0.9199
+    7      679                9.77                 0.9268
+    8      776               11.16                 0.9335
+    9      873               12.56                 0.9375
+   10      970               13.95                 0.9403
+
+68 of 81 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409567901234565 +- 0.0012134979814625029
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2120
+    2      194                2.79                 0.7553
+    3      291                4.19                 0.8746
+    4      388                5.58                 0.8971
+    5      485                6.98                 0.9116
+    6      582                8.37                 0.9206
+    7      679                9.77                 0.9287
+    8      776               11.16                 0.9344
+    9      873               12.56                 0.9387
+   10      970               13.95                 0.9404
+
+69 of 82 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409499999999996 +- 0.0012076231442534504
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1668
+    2      194                2.79                 0.7615
+    3      291                4.19                 0.8732
+    4      388                5.58                 0.9000
+    5      485                6.98                 0.9112
+    6      582                8.37                 0.9186
+    7      679                9.77                 0.9258
+    8      776               11.16                 0.9341
+    9      873               12.56                 0.9380
+   10      970               13.96                 0.9421
+
+70 of 83 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409638554216864 +- 0.0012068657318690286
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1906
+    2      194                2.79                 0.7623
+    3      291                4.19                 0.8724
+    4      388                5.58                 0.8991
+    5      485                6.98                 0.9102
+    6      582                8.37                 0.9211
+    7      679                9.77                 0.9287
+    8      776               11.16                 0.9357
+    9      873               12.56                 0.9394
+   10      970               13.96                 0.9421
+
+71 of 84 runs >= 94.0 % accuracy
+Min  accuracy: 0.9380000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409773809523805 +- 0.0012059723591632458
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1760
+    2      194                2.79                 0.7717
+    3      291                4.19                 0.8754
+    4      388                5.58                 0.9013
+    5      485                6.98                 0.9114
+    6      582                8.37                 0.9196
+    7      679                9.77                 0.9262
+    8      776               11.16                 0.9319
+    9      873               12.56                 0.9358
+   10      970               13.96                 0.9379
+
+71 of 85 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409411764705877 +- 0.0012439305936423105
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2114
+    2      194                2.79                 0.7834
+    3      291                4.19                 0.8785
+    4      388                5.58                 0.9012
+    5      485                6.98                 0.9110
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9285
+    8      776               11.16                 0.9354
+    9      873               12.56                 0.9391
+   10      970               13.96                 0.9417
+
+72 of 86 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409499999999995 +- 0.0012393499796639477
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1915
+    2      194                2.79                 0.7640
+    3      291                4.19                 0.8795
+    4      388                5.58                 0.9007
+    5      485                6.98                 0.9126
+    6      582                8.37                 0.9205
+    7      679                9.77                 0.9266
+    8      776               11.17                 0.9350
+    9      873               12.56                 0.9394
+   10      970               13.96                 0.9415
+
+73 of 87 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409563218390801 +- 0.0012336005752180202
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1896
+    2      194                2.79                 0.7769
+    3      291                4.19                 0.8762
+    4      388                5.58                 0.8991
+    5      485                6.98                 0.9128
+    6      582                8.37                 0.9217
+    7      679                9.77                 0.9296
+    8      776               11.17                 0.9363
+    9      873               12.56                 0.9396
+   10      970               13.96                 0.9413
+
+74 of 88 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409602272727269 +- 0.0012271122580276247
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1637
+    2      194                2.79                 0.7730
+    3      291                4.19                 0.8763
+    4      388                5.58                 0.8981
+    5      485                6.98                 0.9110
+    6      582                8.37                 0.9217
+    7      679                9.77                 0.9269
+    8      776               11.17                 0.9325
+    9      873               12.56                 0.9384
+   10      970               13.96                 0.9418
+
+75 of 89 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409696629213479 +- 0.0012234051295858975
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1619
+    2      194                2.79                 0.7752
+    3      291                4.19                 0.8743
+    4      388                5.58                 0.9001
+    5      485                6.98                 0.9114
+    6      582                8.37                 0.9221
+    7      679                9.77                 0.9284
+    8      776               11.16                 0.9351
+    9      873               12.56                 0.9388
+   10      970               13.95                 0.9417
+
+76 of 90 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409777777777774 +- 0.0012189957412903276
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1508
+    2      194                2.79                 0.7641
+    3      291                4.19                 0.8788
+    4      388                5.58                 0.9009
+    5      485                6.98                 0.9135
+    6      582                8.37                 0.9217
+    7      679                9.77                 0.9273
+    8      776               11.16                 0.9355
+    9      873               12.56                 0.9369
+   10      970               13.95                 0.9399
+
+76 of 91 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409659340659335 +- 0.001217475299767027
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1757
+    2      194                2.79                 0.7658
+    3      291                4.19                 0.8735
+    4      388                5.58                 0.8987
+    5      485                6.98                 0.9091
+    6      582                8.37                 0.9202
+    7      679                9.77                 0.9292
+    8      776               11.16                 0.9349
+    9      873               12.56                 0.9373
+   10      970               13.96                 0.9400
+
+77 of 92 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409554347826081 +- 0.0012149757673764164
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2004
+    2      194                2.79                 0.7658
+    3      291                4.19                 0.8757
+    4      388                5.58                 0.9004
+    5      485                6.98                 0.9131
+    6      582                8.37                 0.9219
+    7      679                9.77                 0.9304
+    8      776               11.17                 0.9354
+    9      873               12.56                 0.9385
+   10      970               13.96                 0.9410
+
+78 of 93 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409559139784941 +- 0.0012084347260915502
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1777
+    2      194                2.79                 0.7851
+    3      291                4.19                 0.8757
+    4      388                5.58                 0.9008
+    5      485                6.98                 0.9122
+    6      582                8.37                 0.9200
+    7      679                9.77                 0.9287
+    8      776               11.17                 0.9337
+    9      873               12.56                 0.9388
+   10      970               13.96                 0.9422
+
+79 of 94 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409691489361697 +- 0.001208747073814997
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2026
+    2      194                2.79                 0.7886
+    3      291                4.19                 0.8795
+    4      388                5.58                 0.8995
+    5      485                6.98                 0.9102
+    6      582                8.37                 0.9238
+    7      679                9.77                 0.9288
+    8      776               11.17                 0.9331
+    9      873               12.56                 0.9374
+   10      970               13.96                 0.9423
+
+80 of 95 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409831578947364 +- 0.0012100154528442541
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1473
+    2      194                2.79                 0.7702
+    3      291                4.19                 0.8831
+    4      388                5.58                 0.9019
+    5      485                6.98                 0.9123
+    6      582                8.38                 0.9206
+    7      679                9.77                 0.9281
+    8      776               11.17                 0.9342
+    9      873               12.56                 0.9395
+   10      970               13.96                 0.9430
+
+81 of 96 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9410041666666662 +- 0.0012209897510717378
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.2115
+    2      194                2.79                 0.7763
+    3      291                4.19                 0.8766
+    4      388                5.58                 0.8973
+    5      485                6.98                 0.9102
+    6      582                8.37                 0.9186
+    7      679                9.77                 0.9270
+    8      776               11.17                 0.9322
+    9      873               12.56                 0.9379
+   10      970               13.96                 0.9404
+
+82 of 97 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409979381443294 +- 0.0012162117440985179
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1600
+    2      194                2.79                 0.7649
+    3      291                4.19                 0.8754
+    4      388                5.58                 0.9016
+    5      485                6.98                 0.9099
+    6      582                8.37                 0.9211
+    7      679                9.77                 0.9281
+    8      776               11.16                 0.9342
+    9      873               12.56                 0.9391
+   10      970               13.95                 0.9390
+
+82 of 98 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409775510204076 +- 0.0012265374036281819
+
+Files already downloaded and verified
+Preprocessing: 1.06 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1522
+    2      194                2.79                 0.7512
+    3      291                4.19                 0.8724
+    4      388                5.58                 0.8958
+    5      485                6.98                 0.9115
+    6      582                8.37                 0.9215
+    7      679                9.77                 0.9285
+    8      776               11.17                 0.9346
+    9      873               12.56                 0.9387
+   10      970               13.96                 0.9410
+
+83 of 99 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409777777777772 +- 0.0012203291123858678
+
+Files already downloaded and verified
+Preprocessing: 1.07 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97                1.40                 0.1557
+    2      194                2.79                 0.7767
+    3      291                4.19                 0.8756
+    4      388                5.58                 0.8975
+    5      485                6.98                 0.9118
+    6      582                8.37                 0.9204
+    7      679                9.77                 0.9294
+    8      776               11.16                 0.9373
+    9      873               12.56                 0.9401
+   10      970               13.96                 0.9427
+
+84 of 100 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409949999999995 +- 0.0012262442660416419
+
