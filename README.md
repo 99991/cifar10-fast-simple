@@ -73,3 +73,22 @@ epoch    batch    train time [sec]    validation accuracy
     9      873               27.04                 0.9396
    10      970               29.90                 0.9422
 ```
+
+* Timing results on an RTX 3060 Laptop GPU (6 GB VRAM)
+
+```
+Files already downloaded and verified
+Preprocessing: 4.67 seconds
+
+epoch    batch    train time [sec]    validation accuracy
+    1       97               10.50                 0.2578
+    2      194               19.47                 0.7549
+    3      291               28.21                 0.8737
+    4      388               36.97                 0.9013
+    5      485               45.72                 0.9127
+    6      582               54.62                 0.9213
+    7      679               63.39                 0.9286
+    8      776               72.17                 0.9348
+    9      873               80.95                 0.9395
+   10      970               89.74                 0.9412
+```
