@@ -79,6 +79,9 @@ def conv_pool_norm_act(c_in, c_out):
 
 
 def patch_whitening(data, patch_size=(3, 3)):
+    # Compute weights from data such that
+    # torch.std(F.conv2d(data, weights), dim=(2, 3))
+    # is close to 1.
     h, w = patch_size
     c = data.size(1)
     patches = data.unfold(2, h, 1).unfold(3, w, 1)
@@ -89,7 +92,7 @@ def patch_whitening(data, patch_size=(3, 3)):
     X = X / (X.size(0) - 1) ** 0.5
     covariance = X.t() @ X
 
-    eigenvalues, eigenvectors = torch.symeig(covariance, eigenvectors=True)
+    eigenvalues, eigenvectors = torch.linalg.eigh(covariance)
 
     eigenvalues = eigenvalues.flip(0)
 
