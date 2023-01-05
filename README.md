@@ -12,22 +12,25 @@ python3 train.py
 
 # Example output
 
-* Timing results using an A100 GPU.
+* Timing results using an A100 GPU only including training and excluding preprocessing and evaluation. The first run still includes some PyTorch/CuDNN initialization work and takes 15.49 sec.
 
 ```
-Preprocessing: 4.15 seconds
-
 epoch    batch    train time [sec]    validation accuracy
-    1       97                2.59                 0.2200
-    2      194                3.99                 0.7673
-    3      291                5.38                 0.8711
-    4      388                6.78                 0.8979
-    5      485                8.17                 0.9107
-    6      582                9.57                 0.9170
-    7      679               10.96                 0.9266
-    8      776               12.36                 0.9331
-    9      873               13.75                 0.9368
-   10      970               15.15                 0.9404
+    1       97                1.43                 0.1557
+    2      194                2.86                 0.7767
+    3      291                4.29                 0.8756
+    4      388                5.73                 0.8975
+    5      485                7.16                 0.9118
+    6      582                8.59                 0.9204
+    7      679               10.02                 0.9294
+    8      776               11.45                 0.9373
+    9      873               12.88                 0.9401
+   10      970               14.32                 0.9427
+
+84 of 100 runs >= 94.0 % accuracy
+Min  accuracy: 0.9379000000000001
+Max  accuracy: 0.9438000000000001
+Mean accuracy: 0.9409949999999995 +- 0.0012262442660416419
 ```
 
 ### Epoch vs validation accuracy

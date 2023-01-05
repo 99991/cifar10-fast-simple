@@ -86,6 +86,10 @@ def train(seed=0):
     train_time = 0.0
     batch_count = 0
     for epoch in range(1, epochs + 1):
+        # Flush CUDA pipeline for more accurate time measurement
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+
         start_time = time.perf_counter()
 
         # Randomly shuffle training data
@@ -134,6 +138,9 @@ def train(seed=0):
             # Update validation model with exponential moving averages
             if (i // batch_size % ema_update_freq) == 0:
                 update_ema(train_model, valid_model, ema_rho)
+
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
 
         # Add training time
         train_time += time.perf_counter() - start_time
