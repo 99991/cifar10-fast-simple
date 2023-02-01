@@ -2,6 +2,8 @@
 
 This project is a simplified version of David Page's amazing blog post [How to Train Your ResNet 8: Bag of Tricks](https://myrtle.ai/learn/how-to-train-your-resnet-8-bag-of-tricks/), where a modified ResNet is trained to reach 94% accuracy in 26 seconds on a V100 GPU.
 
+**Update:** Also check out https://github.com/tysam-code/hlb-CIFAR10 for even faster training!
+
 # Usage
 
 ```bash
